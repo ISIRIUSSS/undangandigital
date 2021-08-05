@@ -1,0 +1,267 @@
+/* 1024px */
+@media (max-width: 1024px) {
+  /* Undangan */
+  .undangan .bismillah{
+    width: 256px;
+  }
+  .undangan .couple{
+    width: 400px;
+  }
+
+  /* Pasangan */
+  .foto-mempelai img{
+    width: 300px;
+  }
+  .foto-mempelai h4{
+    font-size: 34px;
+  }
+
+  /* Donasi */
+  .rekening img{
+    height: 115px;
+  }
+}
+
+/* 768px */
+@media (max-width: 768px){
+  /* Undangan */
+  .undangan h2{
+    font-size: 18px;
+  }
+  .undangan .couple{
+    width: 350px;
+  }
+  .pengantin{
+    font-size: 54px;
+  }
+  .surat-yasin, .surat-yasin-ayat{
+    font-size: 18px;
+  }
+  /* Line */
+  .line{
+    width: 450px;
+  }
+
+  /* Pasangan */
+  .pembuka .salam, .pembuka .mohon{
+    font-size: 18px;
+  }
+  .pasangan h1{
+    font-size: 38px;
+  }
+  .foto-mempelai img{
+    width: 200px;
+  }
+  .foto-mempelai h4{
+    font-size: 30px;
+  }
+  .foto-mempelai p{
+    font-size: 16px;
+  }
+
+  /* Event */
+  .event .rangkaian{
+    font-size: 44px;
+  }
+  .event .acara h1{
+    font-size: 32px;
+  }
+  .lokasi{
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  .event .harap{
+    font-size: 18px;
+  }
+
+  /* Pesan */
+  .memberi{
+    font-size: 18px;
+  }
+  .info-rek{
+    padding: 12px;
+    margin: 45px 50px;
+  }
+  .rekening{
+    padding: 20px;
+    height: 350px;
+  }
+  .rekening img{
+    height: 100px;
+  }
+  .rekening .norek{
+    font-size: 22px;
+  }
+  .rekening .atna{
+    font-size: 14px;
+  }
+
+  /* Kirim ucapan */
+  .judul-ucapan{
+    font-size: 34px;
+  }
+  .ucapan1, .foot-ucapan{
+    font-size: 18px;
+  }
+
+  /* Prokes */
+  .protokol-title{
+    font-size: 22px;
+  }
+  .foot-prokes{
+    font-size: 18px;
+  }
+
+  /* Penutup */
+  .penutup h1{
+    font-size: 22px;
+  }
+  .keluarga{
+    margin: 55px 55px;
+    padding: 20px;
+  }
+  .keluarga-mempelai{
+    height: 120px;
+  }
+  .s1{
+    font-size: 16px;
+  }
+  .s2{
+    font-size: 28px;
+  }
+  .penutup h2{
+    font-size: 30px;
+  }
+  .kelbes p{
+    font-size: 16px;
+  }
+}
+
+/* 425px */
+@media (max-width: 425px) {
+  /* Undangan */
+  .undangan .bismillah{
+    width: 240px;
+  }
+  .undangan h2{
+    font-size: 16px;
+  }
+  .undangan .couple{
+    width: 300px;
+  }
+  .yasin{
+    padding: 10px 50px;
+  }
+  .surat-yasin, .surat-yasin-ayat{
+    font-size: 16px;
+  }
+
+  /* Line */
+  .line{
+    width: 300px;
+  }
+
+  /* Pasangan */
+  .pembuka .salam, .pembuka .mohon{
+    font-size: 16px;
+  }
+  .pasangan h1{
+    font-size: 36px;
+  }
+  .mempelai{
+    column-count: 1;
+  }
+  .foto-mempelai img{
+    width: 175px;
+  }
+  .foto-mempelai h4{
+    font-size: 32px;
+    margin-top: 25px;
+  }
+  .foto-mempelai p{
+    padding-bottom: 20px;
+  }
+
+  /* Event */
+  .event .rangkaian{
+    font-size: 40px;
+  }
+  #timer{
+    font-size: 3em;
+    font-weight: 75px;
+  }
+  #timer div{
+    margin-left: 0;
+    padding: 5px;
+  }
+  .acara{
+    column-count: 1;
+  }
+  .dua-acara{
+    margin-bottom: 25px;
+  }
+  .event .harap{
+    padding: 25px 15px;
+  }
+
+  /* Donasi */
+  .info-rek{
+    column-count: 1;
+  }
+  .rekening{
+    margin-bottom: 25px;
+    height: auto;
+  }
+  .rekening img{
+    height: 65px;
+    padding: 10px;
+  }
+  .rekening .norek{
+    font-size: 18px;
+  }
+  .rekening .atna{
+    font-size: 16px;
+  }
+
+  /* Kirim ucapan */
+  .foot-ucapan{
+    padding: 25px 15px;
+  }
+
+  /* Prokes */
+  .protokol-title{
+    font-size: 20px;
+  }
+  .protokol{
+    column-count: 1;
+    margin-top: 25px;
+  }
+  .protokol-content h4{
+    padding: 10px;
+  }
+  .protokol-content p{
+    margin-bottom: 30px;
+  }
+  .foot-prokes{
+    padding: 25px 15px;
+  }
+
+  /* Penutup */
+  .keluarga{
+    column-count: 1;
+  }
+  .keluarga-mempelai{
+    height: auto;
+    margin: auto auto 25px auto;
+  }
+  .s1{
+    font-size: 20px;
+  }
+  .s2{
+    font-size: 32px;
+  }
+  .kelbes p{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
