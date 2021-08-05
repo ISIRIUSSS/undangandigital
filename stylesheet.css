@@ -1,0 +1,496 @@
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  background-color: #B5EAEA;
+}
+
+/* Modal  */
+
+/* Autoplay */
+audio{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  opacity: 0.1;
+}
+
+/* undangan */
+.undangan{
+  text-align: center;
+  width: 80%;
+  height: auto;
+  background: url(./Assets/bg-item.jpg);
+  background-size: cover;
+  display: block;
+  margin: 25px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px 10px #888888;
+}
+.bismillah{
+  padding-top: 50px;
+  width: 500px;
+}
+.undangan h2{
+  color: #2C394B;
+}
+.dari{
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  color: #2C394B;
+  padding-top: 10px;
+}
+.pengantin{
+  font-size: 64px;
+  font-family: 'Style Script', cursive;
+  color: #F9B208;
+}
+.tanggal{
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  color: #2C394B;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+.line{
+  width: 500px;
+}
+.yasin{
+  padding: 10px 100px;
+}
+.surat-yasin{
+  font-size: 20px;
+  font-family: 'Georama', sans-serif;
+  font-style: italic;
+  color: #2C394B;
+}
+.surat-yasin-ayat{
+  font-size: 20px;
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  margin-top: 25px;
+  padding-bottom: 50px;
+}
+
+/* pasangan */
+.pasangan{
+  text-align: center;
+  width: 80%;
+  height: auto;
+  background: url(./Assets/bg-item.jpg);
+  background-size: cover;
+  display: block;
+  margin: 25px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px 10px #888888;
+}
+.pembuka{
+  padding: 50px 60px;
+}
+.pembuka .salam{
+  font-size: 20px;
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+}
+.pembuka .mohon{
+  font-size: 20px;
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  padding-top: 30px;
+}
+.line{
+  width: 500px;
+  padding-bottom: 25px;
+}
+.pasangan h1{
+  font-family: 'Dancing Script', cursive;
+  color: #864000;
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+.mempelai{
+  column-count: 2;
+}
+.foto-mempelai img{
+  width: 400px;
+}
+.foto-mempelai{
+  display: block;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: center;
+}
+.foto-mempelai h4{
+  font-size: 38px;
+  margin-top: 30px;
+  font-family: 'Dancing Script', cursive;
+  color: #F9B208;
+}
+.foto-mempelai p{
+  font-size: 18px;
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  margin-top: 10px;
+  text-align: center;
+}
+.clear{
+  padding-bottom: 50px;
+}
+
+/* event */
+.event{
+  text-align: center;
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 25px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px 10px #888888;
+  padding: 70px 50px;
+  background: url(./Assets/bg-item.jpg);
+  background-size: cover;
+  font-family: "Helvetica Neue", "Open Sans", helvetica, arial, sans-serif;
+}
+.event .rangkaian{
+  font-family: 'Dancing Script', cursive;
+  color: #864000;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+#timer {
+  font-size: 3.5em;
+  font-weight: 100;
+  color: #F0E3CA;
+  text-shadow: 0 0 20px #FFF8D9;
+}
+#timer div {
+  display: inline-block;
+  min-width: 90px;
+  background-color: #EBA83A;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 10px;
+
+}
+#timer div span {
+  color: #F0E3CA;
+  display: block;
+  font-size: 0.35em;
+  font-weight: 400;
+}
+.btn-kalender {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  transition-duration: 0.4s;
+}
+.btn-kalender:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
+.acara{
+  column-count: 2;
+  margin-top: 45px;
+}
+.dua-acara{
+  padding: 25px 25px;
+  background-color: #FFEFCF;
+  border-radius: 16px;
+  box-shadow: 5px 5px 8px 10px #888888;
+}
+.event .acara h1{
+  font-family: 'Dancing Script', cursive;
+  color: #F9B208;
+  font-size: 36px;
+  padding-bottom: 16px;
+}
+.dua-acara .hari{
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  font-size: 22px;
+  padding-bottom: 0;
+}
+.dua-acara .tanggal{
+  font-family: 'Georama', sans-serif;
+  color: #F0C929;
+  font-size: 56px;
+  padding: 0;
+}
+.dua-acara .bulan{
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  font-size: 22px;
+  padding-top: 0;
+}
+.dua-acara .jam{
+  font-family: 'Georama', sans-serif;
+  color: #F0C929;
+  font-size: 18px;
+}
+.lokasi{
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.btn-lokasi {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  transition-duration: 0.4s;
+}
+.btn-lokasi:hover {
+  background-color: #FFEFCF;
+  color: black;
+  border: 2px solid red;
+}
+.event .harap{
+  font-size: 20px;
+  font-family: 'Georama', sans-serif;
+  font-style: italic;
+  color: #2C394B;
+  padding: 25px 100px 0 100px;
+  margin-bottom: 0;
+}
+
+/* Donasi */
+.donasi{
+  text-align: center;
+  width: 80%;
+  height: auto;
+  background: url(./Assets/bg-item.jpg);
+  background-size: cover;
+  display: block;
+  margin: 25px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px 10px #888888;
+}
+.donasi h1{
+  padding: 50px 60px;
+  font-family: 'Dancing Script', cursive;
+  color: #864000;
+  font-size: 36px;
+}
+.memberi{
+  font-size: 20px;
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  padding: 30px 50px
+}
+.info-rek{
+  column-count: 2;
+  margin: 45px 50px;
+  padding: 10px;
+}
+.rekening{
+  height: auto;
+  padding: 25px 25px;
+  background-color: #FFEFCF;
+  border-radius: 16px;
+  box-shadow: 5px 5px 8px 10px #888888;
+}
+.rekening img{
+  height: 128px;
+  padding: 25px;
+}
+.rekening .rekk{
+  padding-top: 25px;
+}
+.rekening .norek{
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  font-style: bold;
+  font-size: 24px;
+}
+.rekening .atna{
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  font-size: 16px;
+  padding-top: 15px;
+}
+.salin{
+  height:30px;
+  width:auto;
+  border-radius:8px;
+  padding:10px;
+  font-size:16px;
+  font-family: 'Georama', sans-serif;
+  height:52px;
+  cursor:pointer;
+  background-color:wheat;
+  margin-top: 30px;
+}
+
+/* Kirim ucapan */
+.ucapan{
+  text-align: center;
+  width: 80%;
+  height: auto;
+  background: url(./Assets/bg-item.jpg);
+  background-size: cover;
+  display: block;
+  margin: 25px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px 10px #888888;
+}
+.judul-ucapan{
+  padding: 50px 60px;
+  font-family: 'Dancing Script', cursive;
+  color: #864000;
+  font-size: 36px;
+}
+.ucapan1{
+  font-size: 20px;
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  padding: 30px 50px;
+}
+.teks-konfirmasi{
+  font-size: 16px;
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+}
+.btn-konfirmasi{
+  background-color: wheat;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  margin-top: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  transition-duration: 0.4s;
+  opacity: 0.8;
+}
+.btn-konfirmasi:hover {
+  opacity: 1;
+}
+.foot-ucapan{
+  font-size: 20px;
+  font-family: 'Georama', sans-serif;
+  font-style: italic;
+  color: #2C394B;
+  padding: 25px 100px 0 100px;
+  margin-bottom: 25px;
+}
+
+/* Prokes */
+.prokes{
+  text-align: center;
+  width: 80%;
+  height: auto;
+  background: url(./Assets/bg-item.jpg);
+  background-size: cover;
+  display: block;
+  margin: 25px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px 10px #888888;
+}
+.protokol-title{
+  padding: 50px 60px;
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  font-size: 24px;
+}
+.protokol{
+  column-count: 3;
+  margin: 45px 50px;
+  padding: 10px;
+}
+.protokol-content img{
+  width: 128px;
+}
+.protokol-content h4{
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  font-size: 18px;
+  padding: 15px;
+}
+.protokol-content p{
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  font-size: 16px;
+}
+.foot-prokes{
+  font-size: 20px;
+  font-family: 'Georama', sans-serif;
+  font-style: italic;
+  color: #2C394B;
+  padding: 25px 100px 0 100px;
+  margin-bottom: 25px;
+}
+
+/* Penutup */
+.penutup{
+  text-align: center;
+  width: 80%;
+  height: auto;
+  background: url(./Assets/bg-item.jpg);
+  background-size: cover;
+  display: block;
+  margin: 25px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px 10px #888888;
+}
+.penutup h1{
+  padding: 50px 60px;
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  font-size: 24px;
+}
+.keluarga{
+  column-count: 2;
+  margin: 45px 50px;
+  padding: 10px;
+}
+.s1{
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  font-size: 18px;
+}
+.s2{
+  font-family: 'Dancing Script', cursive;
+  color: #864000;
+  font-size: 32px;
+  padding: 20px;
+}
+.penutup h2{
+  font-family: 'Dancing Script', cursive;
+  color: #864000;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+.kelbes p{
+  font-family: 'Georama', sans-serif;
+  color: #2C394B;
+  font-size: 18px;
+}
